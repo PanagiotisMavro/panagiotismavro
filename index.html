@@ -6,10 +6,25 @@
         <style>
             body {
                 text-align: center;
+                padding: 25px;
+                background-color: #6A6986;
+                color: white;
+                font-size: 25px;
+            }
+            .dark-mode {
+               background-color: white;
+               color: #6A6986;
             }
         </style>
         <meta charset="UTF-8">
-        <body style="background-color:#6A6986;">
+        <body>
+        <button onclick="myFunction()">Toggle dark mode</button>
+        <script>
+           function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+       }
+        </script>
             <h1>Welcome to world Deaf</h1>
             <h2>we are can support all for secret</h2>
             <img src="https://i.pinimg.com/736x/b0/a6/48/b0a648ce8abde778c842a78660ed514c.jpg" alt="Trulli" width="600" height="333">
